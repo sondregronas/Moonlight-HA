@@ -1,0 +1,10 @@
+{
+  "domain": "moonlight",
+  "name": "MOONLIGHT-HA",
+  "documentation": "https://github.com/sondregronas/Moonlight-HA",
+  "requirements": [],
+  "dependencies": [],
+  "codeowners": [
+      "@sondregronas"
+      ]
+}

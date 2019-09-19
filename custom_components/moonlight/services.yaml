@@ -1,0 +1,9 @@
+#send_command:
+#    description: Executes a command on the Minecraft Server using RCON
+#    fields:
+#        command:
+#            description: Which command to execute. See https://minecraft.gamepedia.com/Commands
+#            example: 'weather'
+#        data:
+#            description: The parameters of the command. Can be left blank
+#            example: 'clear 600'
