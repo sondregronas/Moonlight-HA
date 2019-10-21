@@ -94,7 +94,7 @@ class MoonlightSensor:
     async def update_data(self):
         """Update data."""
         try:
-            req  = requests.get(str('http://'+self._host+":47989/serverinfo"), timeout=1)
+            req  = await requests.get(str('http://'+self._host+":47989/serverinfo"), timeout=2)
             data = (req.text.split('state>')[1]).split('</')[0]
             self._hass.data[DOMAIN_DATA]["data"] = data
 
