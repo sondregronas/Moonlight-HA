@@ -3,4 +3,4 @@ python:
   - "3.8.1"
 install: 
   - "pip install homeassistant"
-script: "bash $TRAVIS_BUILD_DIR/moonlight/__init__.py"
+script: "bash $TRAVIS_BUILD_DIR/custom_components/moonlight/__init__.py"
