@@ -3,3 +3,4 @@ python:
   - "3.8.1"
 install: 
   - "pip install homeassistant"
+script: "bash $TRAVIS_BUILD_DIR/bin/check_config.sh"
