@@ -6,7 +6,7 @@ To use simply download the 'moonlight' folder and move it to the custom_componen
 ```
 moonlight:
   host: <ip/address_of_host>
-  name: Moonlight (default)
-  icon: 'mdi:cast' (default)
-  icon_active: 'mdi:cast-connected' (default)
+  name: Moonlight #(default)
+  icon: 'mdi:cast' #(default)
+  icon_active: 'mdi:cast-connected' #(default)
 ```
